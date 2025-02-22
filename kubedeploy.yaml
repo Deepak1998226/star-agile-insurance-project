@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: container-mvn-container
-        image: deepak607/insurance-eta-app:latest
+        image: ashdoc123/insurance-eta-app:latest
         ports:
         - containerPort: 8080
 ---
@@ -35,6 +35,3 @@ spec:
   - nodePort: 31000
     port: 8080
     targetPort: 8080
-
-			   
-    
