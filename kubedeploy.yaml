@@ -18,7 +18,7 @@ spec:
       - name: container-mvn-container
         image: ashdoc123/insurance-eta-app:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
 ---
 apiVersion: v1
 kind: Service
@@ -34,4 +34,4 @@ spec:
   ports:
   - nodePort: 31000
     port: 8080
-    targetPort: 8080
+    targetPort: 8081
